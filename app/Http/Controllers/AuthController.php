@@ -12,7 +12,7 @@ class AuthController extends Controller
      *  Show login View
      */
     public function index(){
-        return view('auth.index');
+        return view('auth.login');
     }
 
     /**
@@ -30,7 +30,7 @@ class AuthController extends Controller
         //try to login the user
         if (Auth::attempt(['email' => $request->input('email'), 'password' => $request->input('password')], $request->has('remember'))) {
             // Authentication passed...
-            return redirect()->route('dashboard');
+            return redirect()->route('dashboard')->with('info','Successfully logged in!');
         }else{
             // Authentication failed...
             //redirect the user with the old input

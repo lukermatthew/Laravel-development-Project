@@ -17,6 +17,10 @@
  *  this project directory when doing so.
  */
 
+
+Route::get('/welcome','HomeController@index')->name('welcome');
+
+
 /**
  * Dashboard Route(s)
  * 
@@ -86,6 +90,25 @@ Route::post('products/search','ProductsController@search')->name('products.searc
  */
 Route::resource('/productcategories','ProductCategoriesController');
 Route::post('productcategories/search','ProductcategoriesController@search')->name('productcategories.search');
+
+
+
+/**
+ *  Product Category Route(s)
+ */
+Route::resource('/productsuppliers', 'ProductSuppliersController');
+
+
+
+
+// Branch Management routes
+
+/**
+ *  Areas Route(s)
+ */
+Route::resource('/branchareas','BranchareasController');
+
+
 
 
 

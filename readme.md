@@ -1,4 +1,5 @@
 ## Employee Management System
+
 This Application is using Laravel, Materialize-css version 1.0.0 alpha-4 , material icons.
 
 ### Running this web application
@@ -7,7 +8,8 @@ This Application is using Laravel, Materialize-css version 1.0.0 alpha-4 , mater
 
 - clone this repository to your local machine or just download the zip.
 
-- install [Composer](https://getcomposer.org/download) first, then run this command in your command-line (you should be inside your project directory). 
+- install [Composer](https://getcomposer.org/download) first, then run this command in your command-line (you should be inside your project directory).
+
 ```bash
   composer install
 ```
@@ -25,6 +27,7 @@ This Application is using Laravel, Materialize-css version 1.0.0 alpha-4 , mater
 ```bash
     php artisan db:seed
 ```
+
 - generate application key.
 
 ```bash
@@ -50,8 +53,9 @@ This Application is using Laravel, Materialize-css version 1.0.0 alpha-4 , mater
 ```
 
 #### Admin Credentials
-- Email :- admin@admin.com
-- Password :- Password
+
+- Email :- lukermatthew.tan@yahoo.com.ph
+- Password :- password
 
 #### ScreenShot
 

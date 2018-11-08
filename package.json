@@ -21,6 +21,8 @@
     },
     "dependencies": {
         "admin-lte": "^2.4.8",
-        "sweetalert2": "^7.28.4"
+        "npm": "^6.4.1",
+        "sweetalert2": "^7.28.4",
+        "update": "^0.7.4"
     }
 }

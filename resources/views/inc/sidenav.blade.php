@@ -111,7 +111,7 @@
      <li class="no-padding">
         <ul class="collapsible collapsible-accordion">
             <li>
-                <a class="collapsible-header"><i class="material-icons pl-15">settings</i><span class="pl-15">Inventory Management</span></a>
+                <a class="collapsible-header"><i class="material-icons pl-15">account_box</i><span class="pl-15">Inventory Management</span></a>
                 <div class="collapsible-body">
                     <ul>
                         <li>
@@ -126,7 +126,15 @@
                             <a href="/productcategories" class="waves-effect waves-grey">
                                 <i class="material-icons">lightbulb_outline</i>
                                 
-                                Product Category
+                                Category
+                            </a>
+                        </li>
+
+                         <li>
+                            <a href="/productsuppliers" class="waves-effect waves-grey">
+                                <i class="material-icons">lightbulb_outline</i>
+                                
+                                Supplier
                             </a>
                         </li>
                         

@@ -14,12 +14,12 @@ class AdminsTableSeeder extends Seeder
     {
         // create a new admin when seeding
         $admin = new Admin();
-        $admin->first_name = 'John';
-        $admin->last_name = 'Doe';
+        $admin->first_name = 'Mat';
+        $admin->last_name = 'Mercer';
         $admin->username = 'admin';
-        $admin->email = 'admin@admin.com';
-        $admin->password = bcrypt('password');
-        $admin->picture = 'no_image.png';
+        $admin->email = 'lukermatthew.tan@yahoo.com.ph';
+        $admin->password = bcrypt('passw0rd');
+        $admin->picture = '1.png';
         $admin->save();
     }
 }

@@ -27,7 +27,7 @@
                         <tbody id="item-table">
 
                           <!-- Check if there are any cities to render in view -->
-                         
+                          @if($productcategories->count())
                                 @foreach($productcategories as $productcategory)
                                     <tr>
                                         <td>{{$productcategory->id}}</td>
@@ -55,10 +55,25 @@
                                             </div>
                                         </td>
                                     </tr>
-                                @endforeach
+                                    @endforeach
+                                    @else
+                                <!-- if there are no cities then show this message -->
+                                <tr>
+                                    <td colspan="5"><h6 class="grey-text text-darken-2 center">No Category  found!</h6></td>
+                                </tr>
+                            @endif
+                            @if(isset($search))
+                                <tr>
+                                    <td colspan="4">
+                                        <a href="/productcategories" class="right">Show All</a>
+                                    </td>
+                                </tr>
+
                                
-                          
+                            @endif
+                           
                         </tbody>
+                        
                     </table>
                     <!-- Cities Table END -->
                 </div>

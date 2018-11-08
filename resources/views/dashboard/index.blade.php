@@ -19,65 +19,51 @@
                     </div>
                 </div>
             </a>
-            <a href="/employees" class="white-text">
-                <div class="mx-20 card-panel teal lighten-1 col s8 offset-s2 m4 l4 xl2">
+
+              <a href="/employees" class="white-text">
+              <div class="mx-20 card-panel teal lighten-1 col s8 offset-s2 m4 l4 xl2">
                     <div class="row">
                         <div class="col s7 xl7">
-                            <i class="material-icons medium white-text pt-5">person_outline</i>
+                        <i class="material-icons medium white-text pt-5">person_outline</i>
                             <h6 class="no-padding txt-md">Employees</h6>
                         </div>
                         <div class="col s5 xl5">
-                            <p class="no-padding center mt txt-sm">Total({{$t_employees}})</p>
+                        <p class="no-padding center mt txt-sm">Total({{$t_employees}})</p>
                         </div>
                     </div>
                 </div>
             </a>
-           
-           
-            
-           
-            <a href="/products" class="white-text hide-on-small-only">
-                <div class="card-panel blue col s8 offset-s2 m4 offset-m2 l4 offset-l2 xl2 mx-20">
+
+             <a href="/products" class="white-text">
+              <div class="mx-20 card-panel blue lighten-1 col s8 offset-s2 m4 l4 xl2">
                     <div class="row">
                         <div class="col s7 xl7">
-                            <i class="material-icons medium white-text pt-5">shopping_cart</i>
+                        <i class="material-icons medium white-text pt-5">shopping_cart</i>
                             <h6 class="no-padding txt-md">Products</h6>
                         </div>
                         <div class="col s5 xl5">
-                            <p class="no-padding center mt txt-sm">Total({{$t_products}})</p>
+                        <p class="no-padding center mt txt-sm">Total({{$t_products}})</p>
                         </div>
                     </div>
                 </div>
             </a>
 
-               
-               <a href="/states" class="white-text hide-on-small-only">
-                <div class="card-panel green lighten-1  col s8 offset-s2 m4 offset-m2 l4 offset-l2 xl2 mx-20">
+            
+            <a href="/products" class="white-text">
+              <div class="mx-20 card-panel light green lighten-1 col s8 offset-s2 m4 l4 xl2">
                     <div class="row">
                         <div class="col s7 xl7">
-                            <i class="material-icons medium white-text pt-5">shopping_cart</i>
-                            <h6 class="no-padding txt-md">Branch Store</h6>
+                        <i class="material-icons medium white-text pt-5">shopping_cart</i>
+                            <h6 class="no-padding txt-md">Store branch</h6>
                         </div>
                         <div class="col s5 xl5">
-                            <p class="no-padding center mt txt-sm">Total({{$t_products}})</p>
+                        <p class="no-padding center mt txt-sm">Total({{$t_products}})</p>
                         </div>
                     </div>
                 </div>
             </a>
-           
-        </div>
         </div>  
-
-
             <br>
-            
-
-
-
-       
-
-
-
 
 <div class="container">
     <div class="container-fluid">
@@ -91,6 +77,7 @@
     <script src="{{asset('js/chart.js')}}"></script>
     
     {{-- Create the chart with javascript using canvas --}}
+
     <script>
         // Get Canvas element by its id
         employee_chart = document.getElementById('employee').getContext('2d');
@@ -135,4 +122,8 @@
             }
         });
     </script>
+
+
+
+    
 @endsection

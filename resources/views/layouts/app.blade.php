@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset('css/materialize.css')}}">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Laravel Project</title>
 </head>
@@ -25,7 +24,7 @@
     <script src="{{asset('js/jquery.js')}}"></script>
     <script src="{{asset('js/materialize.js')}}"></script>
     <script src="{{asset('js/app.js')}}"></script>
-    <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+   
     <!-- Include the Script after materialize.js is loaded -->
     @include('inc.message')
 </body>

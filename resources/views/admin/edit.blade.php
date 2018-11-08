@@ -50,7 +50,7 @@
                                     <span class="{{$errors->has('picture') ? 'helper-text red-text' : ''}}">{{$errors->has('picture') ? $errors->first('picture') : ''}}</span>
                                 </div>
                             </div>
-                        </div>
+                        </div>  
                         @method('PUT')
                         @csrf()
                         <div class="row">
