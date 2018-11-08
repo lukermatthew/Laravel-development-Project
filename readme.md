@@ -59,6 +59,6 @@ This Application is using Laravel, Materialize-css version 1.0.0 alpha-4 , mater
 
 #### ScreenShot
 
-![screen shot](https://github.com/lukermatthew/Laravel development Project/master/screenshot/1.PNG)
+![screen shot](https://github.com/lukermatthew/Laravel development Project/master/screenshot/1.jpg)
 
 Thankyou.
